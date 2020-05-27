@@ -1,5 +1,5 @@
 # Zendesk Takeover
-zendesk_takeover.py is a simple tool that determines if a zendesk subdomain is available to takeover.
+zendesk_takeover.py is a simple tool that determines if a zendesk subdomain is vulnerable to takeover.
 
 # Usage
 
