@@ -17,7 +17,10 @@ for line in dig:
 		pass
 	else:
 		cname = line.split('CNAME	')[1].rstrip()
-
+		if "zendesk" not in cname:
+			print("I dont think this is a zendesk subdomain")
+			os.system("rm dig")
+			sys.exit()
 os.system("rm dig")
 
 try:
